@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [
+        [ 5, 3, 5, 7],
+        [2, 4, 6, 18],
+        [3, 18, 9, 19]
+    ]
+    let max = a[0][0];
+    for (let i = 0; i < a.length; i++) {
+        for (let j = 0; j < a[i].length; j++) {
+            if (a[i][j] > max){
+                max = a[i][j];
+            }
+        }
+        document.write(max + "<br>") ;
+    }
+</script>
+</body>
+</html>
